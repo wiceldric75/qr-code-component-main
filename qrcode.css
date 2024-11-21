@@ -1,0 +1,181 @@
+:root {
+  /* Colors */
+  --color-white: hsl(0, 0%, 100%);
+  --color-slate-300: hsl(212, 45%, 89%);
+  --color-slate-500: hsl(216, 15%, 48%);
+  --color-slate-900: hsl(218, 44%, 22%);
+
+  /* Typography */
+  --font-family-outfit: "Outfit", sans-serif;
+
+  /* Font Sizes */
+  --font-size-200: 16px;
+  --font-size-300: 24px;
+  --font-size-400: 15px; /* Paragraph */
+  --font-size-500: 40px;
+
+  /* Line Heights */
+  --line-height-tight: 120%; /* 1.2 */
+  --line-height-normal: 140%; /* 1.4 */
+
+  /* Letter Spacing */
+  --letter-spacing-none: 0px;
+  --letter-spacing-wide: 0.2px;
+
+  /* Typography Presets */
+  --preset-1-font-size: 22px;
+  --preset-1-line-height: var(--line-height-tight);
+  --preset-1-letter-spacing: var(--letter-spacing-none);
+  --preset-1-font-weight: 700; /* Bold */
+
+  --preset-2-font-size: 15px;
+  --preset-2-line-height: var(--line-height-normal);
+  --preset-2-letter-spacing: var(--letter-spacing-wide);
+  --preset-2-font-weight: 400; /* Regular */
+}
+:root {
+  --spacing-100: 0.5rem;
+  --spacing-150: 0.75rem;
+  --spacing-200: 1rem;
+  --spacing-300: 1.5rem;
+  --spacing-400: 2rem;
+  --spacing-500: 2.5rem;
+  --spacing-1600: 8rem;
+}
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set the root font size */
+html {
+  font-size: 16px;
+}
+/* === Utility Classes === */
+
+/* Font Sizes */
+.text-200 {
+  font-size: var(--font-size-200);
+}
+.text-300 {
+  font-size: var(--font-size-300);
+}
+.text-400 {
+  font-size: var(--font-size-400);
+}
+.text-500 {
+  font-size: var(--font-size-500);
+}
+
+/* Colors */
+.text-white {
+  color: var(--color-white);
+}
+.text-slate-300 {
+  color: var(--color-slate-300);
+}
+.text-slate-500 {
+  color: var(--color-slate-500);
+}
+.text-slate-900 {
+  color: var(--color-slate-900);
+}
+.bg-white {
+  background-color: var(--color-white);
+}
+.bg-slate-300 {
+  background-color: var(--color-slate-300);
+}
+.bg-slate-500 {
+  background-color: var(--color-slate-500);
+}
+.bg-slate-900 {
+  background-color: var(--color-slate-900);
+}
+
+/* Typography Presets */
+.preset-1 {
+  font-family: var(--font-family-outfit);
+  font-size: var(--preset-1-font-size);
+  line-height: var(--preset-1-line-height);
+  letter-spacing: var(--preset-1-letter-spacing);
+  font-weight: var(--preset-1-font-weight);
+}
+.preset-2 {
+  font-family: var(--font-family-outfit);
+  font-size: var(--preset-2-font-size);
+  line-height: var(--preset-2-line-height);
+  letter-spacing: var(--preset-2-letter-spacing);
+  font-weight: var(--preset-2-font-weight);
+}
+
+body {
+  background-color: var(--color-slate-300);
+}
+
+.card {
+  display: flex;
+  padding: var(--spacing-200, 16px) var(--spacing-200, 16px)
+    var(--spacing-500, 40px) var(--spacing-200, 16px);
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--spacing-300, 24px);
+  border-radius: 20px;
+  background: var(--color-white, #fff);
+
+  /* card-shadow */
+  box-shadow: 0px 25px 25px 0px rgba(0, 0, 0, 0.05);
+  width: 324px;
+  margin-top: 156px;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+
+.qrcodecard {
+  width: 288px;
+  height: 288px;
+  border-radius: 10px;
+  background: var(--color-blue-600, #2c7dfa);
+}
+.qrcode {
+  width: 160px;
+  height: 160px;
+  flex-shrink: 0;
+  margin: 64px
+}
+h1 {
+  color: var(--color-slate-900, #1f314f);
+  text-align: center;
+  font-feature-settings: "liga" off, "clig" off;
+
+  /* text-preset-1 */
+  font-family: Outfit;
+  font-size: var(--font-size-text-preset-1, 22px);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 26.4px */
+  align-self: stretch;
+}
+.textcard {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--spacing-200, 24px);
+}
+p {
+  color: var(--color-slate-500, #68778d);
+  text-align: center;
+  font-feature-settings: "liga" off, "clig" off;
+
+  /* text-preset-2 */
+  font-family: Outfit;
+  font-size: var(--font-size-text-preset-2, 15px);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 21px */
+  letter-spacing: 0.2px;
+  align-self: stretch;
+}
