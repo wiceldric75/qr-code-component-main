@@ -129,8 +129,8 @@ html {
 }
 main {
   display: flex;
-  width: 375px;
-  height: 812px;
+  width: 100vw; /* Take full viewport width */
+  height: 100vh; /* Take full viewport height */
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -185,8 +185,8 @@ p {
 @media (min-width: 768px) {
   main {
     display: flex;
-    width: 1440px;
-    height: 960px;
+    width: 100vw; /* Take full viewport width */
+    height: 100vh; /* Take full viewport height */
     flex-direction: column;
     justify-content: center;
     align-items: center;
