@@ -166,7 +166,7 @@ h1 {
   flex-direction: column;
   align-items: flex-start;
   gap: var(--spacing-200, 24px);
-  padding: 0 var(--spacing-200, 24px); var(--spacing-200, 24px) 0;
+  padding: 0 var(--spacing-200, 24px);
 }
 p {
   color: var(--color-slate-500, #68778d);
