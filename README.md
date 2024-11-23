@@ -28,7 +28,7 @@ This is my solution to the [QR Code Component Challenge on Frontend Mentor](http
 ## My Process
     - Setup: Structured the project with semantic HTML5 and external CSS, importing the "Outfit" font via Google Fonts.
     - HTML: Created a clean, accessible layout using descriptive class names and logical content hierarchy.
-    - CSS: Styled the component with custom properties, Flexbox for layout, and a mobile-first approach. Added box-shadow for depth and media queries for responsiveness.
+    - CSS: Styled the component with custom properties, Flexbox for layout, and a mobile-first approach. Added box-shadow for depth and media   -- - queries for responsiveness.
     - Testing: Verified design accuracy and responsiveness across screen sizes.
     - Refinement: Iteratively adjusted spacing, font sizes, and alignment to match the mockup.
 
@@ -46,7 +46,8 @@ This is my solution to the [QR Code Component Challenge on Frontend Mentor](http
 - [Frontend Mentor Slack Community](https://www.frontendmentor.io/slack) - A supportive community where I asked questions and received valuable feedback during this challenge.
 
 ### Author
-
+    - I have over 20 years of professional development experience, starting with a decade in embedded systems where I worked with assembly, C, and - C++. For the past 10+ years, I’ve specialized in iPhone application development using Objective-C and Swift. Recently, I’ve ventured into -- - starting my own business, which sparked my interest in web development. After spending months studying HTML, CSS, and JavaScript to build a - strong theoretical foundation, I’m now putting those skills into practice through hands-on challenges like those offered by Frontend Mentor.
+    
 - **GitHub**: [YourUsername](https://github.com/wiceldric75)
 - **Frontend Mentor**: [@YourFrontendMentorUsername](https://www.frontendmentor.io/profile/wiceldric75)
 
