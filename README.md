@@ -47,8 +47,8 @@ This is my solution to the [QR Code Component Challenge on Frontend Mentor](http
 
 ### Author
     - I have over 20 years of professional development experience, starting with a decade in embedded systems where I worked with assembly, C, and - C++. For the past 10+ years, I’ve specialized in iPhone application development using Objective-C and Swift. Recently, I’ve ventured into -- - starting my own business, which sparked my interest in web development. After spending months studying HTML, CSS, and JavaScript to build a - strong theoretical foundation, I’m now putting those skills into practice through hands-on challenges like those offered by Frontend Mentor.
-    
-- **GitHub**: [YourUsername](https://github.com/wiceldric75)
+
+- **GitHub**: [wiceldric75g](https://github.com/wiceldric75)
 - **Frontend Mentor**: [@YourFrontendMentorUsername](https://www.frontendmentor.io/profile/wiceldric75)
 
 
