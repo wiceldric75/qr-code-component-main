@@ -127,27 +127,17 @@ html {
   margin-right: auto;
   width: 324px;
 }
-main {
-  display: flex;
-  width: 100vw; /* Take full viewport width */
-  height: 100vh; /* Take full viewport height */
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background: var(--color-slate-300, #d5e1ef);
-}
 .qrcodecard {
-  width: 288px;
-  height: 288px;
-  border-radius: 10px;
-  background: var(--color-blue-600, #2c7dfa);
-}
-.qrcode {
-  width: 160px;
-  height: 160px;
-  flex-shrink: 0;
-  margin: 64px;
-}
+    width: 288px;
+    height: 288px;
+    border-radius: 10px;
+    background-image: url('./images/image-qr-code.png');
+    background-size: cover; /* Ensures the image covers the entire div */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+  }
+  
+
 h1 {
   color: var(--color-slate-900, #1f314f);
   text-align: center;
@@ -182,6 +172,15 @@ p {
   letter-spacing: 0.2px;
   align-self: stretch;
 }
+main {
+    display: flex;
+    width: 100vw; /* Take full viewport width */
+    height: 100vh; /* Take full viewport height */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--color-slate-300, #d5e1ef);
+  }
 @media (min-width: 768px) {
   main {
     display: flex;
